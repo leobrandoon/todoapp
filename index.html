@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://getbootstrap.com/docs/4.4/examples/navbar-fixed/ -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Fixed top navbar example · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/navbar-fixed/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="Todo_app_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/favicon.ico">
+    <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
+
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        #title {
+            color: white;
+            text-align: center;
+            width: 100%;
+        }
+        
+        #box_check {
+            display: block;
+            background-color: gray;
+        }
+        
+        .subrayado {
+            text-decoration: line-through;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="./Todo_app_files/navbar-top-fixed.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+
+            <h3 id="title">TODO APP</h3>
+
+        </nav>
+
+        <!-- Area para agrega texto-->
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+            <h3>Agregar Tarea</h3>
+            <textarea class="form-control" rows="3" id="nueva_tarea"></textarea>
+            <button type="button" class="btn btn-primary" id="boton">Agregar</button>
+        </div>
+
+        <!-- Lista de tareas por agregar -->
+        <div id="box_check">
+            <div class="lista_tareas row">
+                <div class="col-md-1">
+                    <input type="checkbox" class="check_box">
+                </div>
+                <div class="col-md-10 ">
+                    <p>asjkdhaskjdh</p>
+                </div>
+                <div class="col-md-1 eliminar">
+                    <img src="Todo_app_files/icon.png" width="25px" alt="">
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./Todo_app_files/bootstrap.bundle.min.js.descarga" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
