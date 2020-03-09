@@ -7,13 +7,13 @@ $(document).ready(function(ev) {
 
         var tarea = `
         <div class="lista_tareas row">
-            <div class="col-md-1">
+            <div class="col-2">
                 <input type="checkbox" class="check_box">
             </div>
-            <div class="col-md-10">
+            <div class="col-8">
                 <p>` + tareas + `</p>
             </div>
-            <div class="col-md-1 eliminar">
+            <div class="col-2 eliminar">
                 <img src="Todo_app_files/icon.png" width="25px" alt="">
             </div>
         </div>
